@@ -36,7 +36,13 @@ if (age>16){
 var colorResponse;
 
 var responseCreator = function(param){
-  // CODE HERE
+  if (param==="green"){
+    console.log("Green is okay");
+  }else if(param==="red"){
+    console.log("I heart red")
+  }else{console.log("what is your favorite color?")
+
+  }
 }
 
 // #9 Create a function called 'sum' that takes in one parameter and returns the sum of that parameter added it itself.
